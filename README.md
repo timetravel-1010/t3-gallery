@@ -11,7 +11,7 @@
 - [x] Add image upload
 - [x] "taint" (server-only)
 - [x] Use Next/Image component
-- [ ] Error management (with Sentry)
+- [x] Error management (with Sentry)
 - [ ] Routing/image page (parallel route)
 - [ ] Delete button (using Server Actions)
 - [ ] Analytics (posthog)
