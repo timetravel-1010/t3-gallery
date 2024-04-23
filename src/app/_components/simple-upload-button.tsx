@@ -75,8 +75,11 @@ export default function SimpleUploadButton() {
   const { inputProps } = useUploadThingInputProps("imageUploader", {
     onUploadBegin() {
       toast(
-        <div className="flex gap-2">
-          <LoadingSpinnerSVG /> Uploading...
+        <div className="flex gap-2 text-white items-center">
+          <LoadingSpinnerSVG />
+          <span className="text-lg">
+            Uploading...
+          </span>
         </div>, {
         duration: 100000,
         id: "upload-begin",
