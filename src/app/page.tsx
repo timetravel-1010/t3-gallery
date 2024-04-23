@@ -32,7 +32,7 @@ export default async function HomePage() {
 
 
   return (
-    <main className="m-10">
+    <main className="m-8">
       <SignedOut>
         <div className="h-full w-full text-2xl text-center">
           <h3>
