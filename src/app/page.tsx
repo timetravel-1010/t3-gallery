@@ -10,7 +10,7 @@ const Images = async () => {
 
   return (
     <div className="flex flex-wrap gap-4 justify-center p-4">
-      {[...images, ...images, ...images].map((image) => (
+      {images.map((image) => (
         <div key={image.id} className="flex flex-col h-48 w-48 ">
           <Link href={`/img/${image.id}`}>
             <Image
@@ -21,7 +21,7 @@ const Images = async () => {
               alt={image.name}
             />
           </Link>
-          <p>{image.name}</p>
+          {/*<p>{image.name}</p>*/}
         </div>
       ))}
     </div>
