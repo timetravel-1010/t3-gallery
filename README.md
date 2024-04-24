@@ -1,5 +1,7 @@
 # T3 Gallery
 
+This web application was built following [this](https://www.youtube.com/watch?v=d5x0JCZbAJs) by [Theo](https://github.com/t3dotgg).
+
 ## TODO
 
 - [x] Make it deploy (Vercel)
@@ -18,3 +20,8 @@
 - [x] Analytics (posthog)
 - [x] Delete button (using Server Actions)
 - [x] Ratelimiting (upstash)
+
+- [ ] Fix the page layout for images of different resolutions
+- [ ] "Selecting" images on the gallery page (w/ Zustand)
+- [ ] Add infite scroll (w/ lazy loading)
+- [ ] Add folders/albums
