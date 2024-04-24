@@ -16,5 +16,5 @@
 - [x] Update upload button style
 - [x] Setup shadui toast component
 - [x] Analytics (posthog)
-- [ ] Delete button (using Server Actions)
-- [ ] Ratelimiting (upstash)
+- [x] Delete button (using Server Actions)
+- [x] Ratelimiting (upstash)
