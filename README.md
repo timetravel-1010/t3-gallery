@@ -1,6 +1,6 @@
 # T3 Gallery
 
-This web application was built following [this](https://www.youtube.com/watch?v=d5x0JCZbAJs) by [Theo](https://github.com/t3dotgg).
+This web application was built following [this](https://www.youtube.com/watch?v=d5x0JCZbAJs) tutorial by [Theo](https://github.com/t3dotgg).
 
 ## TODO
 
