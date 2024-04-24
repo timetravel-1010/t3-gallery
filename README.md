@@ -14,7 +14,7 @@
 - [x] Error management (with Sentry)
 - [x] Routing/image page (parallel route)
 - [x] Update upload button style
-- [ ] Setup shadui toast component
-- [ ] Delete button (using Server Actions)
+- [x] Setup shadui toast component
 - [ ] Analytics (posthog)
+- [ ] Delete button (using Server Actions)
 - [ ] Ratelimiting (upstash)

@@ -87,7 +87,13 @@ export default function SimpleUploadButton() {
     },
     onClientUploadComplete() {
       toast.dismiss("upload-begin");
-      toast("Upload complete!");
+      toast(
+        <div className="flex gap-2 text-white items-center">
+          <span className="text-lg">
+            Upload complete!
+          </span>
+        </div>
+      );
 
       router.refresh();
     },
